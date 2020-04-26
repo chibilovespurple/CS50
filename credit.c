@@ -57,9 +57,7 @@ int main(void)
     {
         printf("VISA\n");
     }
-    else if (checksum % 10 == 0 && count == 16 && (floor(cardnumber / 100000000000000) == 51 
-             || floor(cardnumber / 100000000000000) == 52 || floor(cardnumber / 100000000000000) == 53 
-             || floor(cardnumber / 100000000000000) == 54 || floor(cardnumber / 100000000000000) == 55))
+    else if (checksum % 10 == 0 && count == 16 && (floor(cardnumber / 100000000000000) == 51 || floor(cardnumber / 100000000000000) == 52 || floor(cardnumber / 100000000000000) == 53 || floor(cardnumber / 100000000000000) == 54 || floor(cardnumber / 100000000000000) == 55))
     {
         printf("MASTERCARD\n");
     }
