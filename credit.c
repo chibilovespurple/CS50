@@ -1,9 +1,7 @@
 #include <cs50.h>
 #include <math.h>
 #include <stdio.h>
-
 int main(void)
-
 { 
     // Ask for input
     long long cardnumber;
@@ -12,7 +10,6 @@ int main(void)
         cardnumber = get_long_long("Number: ");
     }
     while (cardnumber < 0);
-    //Example: 4003600000000014
     //Count the number of digits 
     int count = 0;
     long long i = cardnumber;
