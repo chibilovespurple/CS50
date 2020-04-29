@@ -19,7 +19,7 @@ int main(void)
         //count spaces
         for (int j = 0; j < i + n + 3; j++)
         {
-            //first part of the row
+            //first part of the row and the middle space
             if (j < n - i - 1 || (j >= n  && j < n + 2))
             {
                 printf(" ");
